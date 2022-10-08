@@ -190,3 +190,51 @@
     font-size: 25px;
     color: white;
 }
+/* Chats */
+.right-container .chats{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    margin: 0 10px;
+}
+.chats .me{
+    display: flex;
+    align-self: flex-end;
+    background-color: white;
+    font: normal normal normal 15px/normal sans-serif;
+    color: #034f84;
+    margin: 5px 0;
+    padding: 2.5px 5px;
+}
+.chats .user{
+    display: flex;
+    align-self: flex-start;
+    margin: 5px 0;
+    padding: 2.5px 5px;
+    background-color: #034f84;
+    color: white;
+    font: normal normal normal 15px/normal sans-serif;
+}
+/* Input To Chat */
+.right-container .input-to-chat{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    padding: 0 7px;
+    background-color: #034f84;
+}
+.input-to-chat i{
+    padding: 3px;
+    margin: 0 3px;
+    color: white;
+}
+.input-to-chat input{
+    outline: none;
+    border: none;
+    width: 100%;
+    background-color: #034f84;
+    color: white;
+}
