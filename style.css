@@ -12,3 +12,35 @@
     border-right: 1px solid white;
     overflow: auto;
 }
+/* Top-side */
+.top-side{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #034f84;
+}
+.profile-image{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.profile-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.user-list li{
+    padding: 3px;
+    margin: 0 5px;
+}
+.user-list li i{
+    font-size: 23px;
+    color: white;
+}
