@@ -238,3 +238,12 @@
     background-color: #034f84;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .left-container{
+        width: 100vw;
+    }
+    .right-container{
+        display: none;
+    }
+}
