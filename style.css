@@ -50,13 +50,13 @@
     display: flex;
     width: 100%;
     padding: 10px 15px;
-    background-color: #7a00cc;
+    background-color: #92a8d1;
 }
 .input-container{
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: #a31aff;
+    background-color: #034f84;
     padding: 3px 7px;
     border-radius: 10px;
 }
@@ -69,7 +69,7 @@
     border: none;
     width: 100%;
     margin: 0 3px;
-    background-color: #a31aff;
+    background-color: #034f84;
 }
 .middle-side i.status{
     font-size: 20px;
