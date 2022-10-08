@@ -44,3 +44,35 @@
     font-size: 23px;
     color: white;
 }
+
+/* Middle side */
+.middle-side{
+    display: flex;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #7a00cc;
+}
+.input-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #a31aff;
+    padding: 3px 7px;
+    border-radius: 10px;
+}
+.input-container i{
+    margin-right: 7px;
+    color: white;
+}
+.input-container input{
+    outline: none;
+    border: none;
+    width: 100%;
+    margin: 0 3px;
+    background-color: #a31aff;
+}
+.middle-side i.status{
+    font-size: 20px;
+    margin-left: 15px;
+    color: white;
+}
