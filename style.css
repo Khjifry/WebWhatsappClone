@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Left-container */
+.left-container{
+    width: 30vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #034f84;
+    border-right: 1px solid white;
+    overflow: auto;
+}
